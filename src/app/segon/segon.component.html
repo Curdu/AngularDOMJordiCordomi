@@ -1,0 +1,11 @@
+<div id="segon"></div>
+
+
+<ul>
+  <li>{{llibre.getTitol()}}</li>
+  <ul>
+    @for (tematica of llibre.getTematiques(); track tematica) {
+      <li>{{tematica}}</li>
+    }
+  </ul>
+</ul>
